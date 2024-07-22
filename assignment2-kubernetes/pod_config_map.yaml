@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wiki-config
+  namespace: wiki_ns
+data:
+  config-key: config-value
